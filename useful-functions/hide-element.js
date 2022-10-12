@@ -1,3 +1,5 @@
+// Hide an element if it is empty
+
 function hideElement(element){
     if ((document.getElementsByClassName(element))[0].innerText == ''){
       let targetElement = (document.getElementsByClassName(element)[0]);
